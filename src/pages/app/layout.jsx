@@ -1,4 +1,4 @@
-import { CartProvider } from "../context/CartContext";
+import { CartProvider } from ".../context/CartContext";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
