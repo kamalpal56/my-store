@@ -1,0 +1,130 @@
+// src/data/products.js
+
+ 
+const products = [
+  // Phones
+  {
+    id: 1,
+    title: "iPhone 15 Pro",
+    image: "/phone/iphone.avif",
+    price: 999.99,
+    description: "The latest iPhone with powerful performance and advanced camera features.",
+    category: "Phone",
+    quantity: 25,
+    reviews: [
+      { user: "John", comment: "Amazing phone!", rating: 5 },
+      { user: "Alice", comment: "Worth the price.", rating: 4 },
+    ],
+    rating: 5, // rounded
+  },
+  {
+    id: 2,
+    title: "Samsung Galaxy",
+    image: "/phone/samsung.avif",
+    price: 899.99,
+    description: "Flagship Samsung phone with vibrant display and fast performance.",
+    category: "Phone",
+    quantity: 30,
+    reviews: [{ user: "Mike", comment: "Excellent Android phone.", rating: 5 }],
+    rating: 5,
+  },
+
+  // Shoes
+  {
+    id: 3,
+    title: "Nike Air Max",
+    image: "/shoes/shoes_nike.avif",
+    price: 129.99,
+    description: "Comfortable and stylish sneakers for daily wear and sports.",
+    category: "Shoes",
+    quantity: 50,
+    reviews: [{ user: "Emma", comment: "Super comfortable!", rating: 5 }],
+    rating: 5,
+  },
+  {
+    id: 4,
+    title: "Jordan",
+    image: "/shoes/shoes_jordan.avif",
+    price: 149.99,
+    description: "High-performance running shoes with excellent cushioning.",
+    category: "Shoes",
+    quantity: 40,
+    reviews: [],
+    rating: 0,
+  },
+
+  // Sunglasses
+  {
+    id: 5,
+    title: "Ray-Ban Aviator",
+    image: "/sunglass/glass1.avif",
+    price: 199.99,
+    description: "Classic aviator sunglasses with UV protection.",
+    category: "Sunglasses",
+    quantity: 20,
+    reviews: [{ user: "Olivia", comment: "Stylish and durable.", rating: 5 }],
+    rating: 5,
+  },
+  {
+    id: 6,
+    title: "Oakley Sports Sunglasses",
+    image: "/sunglass/glass2.avif",
+    price: 179.99,
+    description: "Perfect sunglasses for outdoor sports and activities.",
+    category: "Sunglasses",
+    quantity: 15,
+    reviews: [],
+    rating: 0,
+  },
+
+  // T-Shirts
+  {
+    id: 7,
+    title: "Cotton Crew Neck T-Shirt",
+    image: "/tshirt/tshirt.avif",
+    price: 19.99,
+    description: "Comfortable cotton T-shirt suitable for casual wear.",
+    category: "T-Shirt",
+    quantity: 100,
+    reviews: [{ user: "Liam", comment: "Very soft and comfortable.", rating: 4 }],
+    rating: 4,
+  },
+  {
+    id: 8,
+    title: "Graphic Printed T-Shirt",
+    image: "/tshirt/tshirt2.avif",
+    price: 24.99,
+    description: "Stylish printed T-shirt made from high-quality cotton.",
+    category: "T-Shirt",
+    quantity: 80,
+    reviews: [],
+    rating: 0,
+  },
+
+  // Watches
+  {
+    id: 9,
+    title: "Fossil Chronograph Watch",
+    image: "/watch/fossil.avif",
+    price: 399.99,
+    description: "Smartwatch with health tracking, notifications, and GPS.",
+    category: "Watch",
+    quantity: 35,
+    reviews: [{ user: "Sophia", comment: "Best smartwatch I've owned!", rating: 5 }],
+    rating: 5,
+  },
+  {
+    id: 10,
+    title: "fast Track",
+    image: "/watch/fasttrack.avif",
+    price: 149.99,
+    description: "Classic analog watch with chronograph and leather strap.",
+    category: "Watch",
+    quantity: 40,
+    reviews: [],
+    rating: 0,
+  },
+];
+
+
+export default products;
