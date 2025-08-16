@@ -1,5 +1,5 @@
-import { CartProvider } from ".../context/CartContext";
-import "./globals.css";
+import { CartProvider } from "../../context/CartContext"; 
+import "../../globals.css";
 
 export default function RootLayout({ children }) {
   return (
