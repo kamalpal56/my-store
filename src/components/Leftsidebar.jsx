@@ -5,7 +5,7 @@ export default function FilterComponent({ onFilter }) {
   const [category, setCategory] = useState("All");
   const [minPrice, setMinPrice] = useState("0");
   const [maxPrice, setMaxPrice] = useState("1000");
-  const [minRating, setMinRating] = useState("3");
+  const [minRating, setMinRating] = useState("0");
 
   const handleApply = () => {
     onFilter({

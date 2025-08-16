@@ -15,7 +15,7 @@ const products = [
       { user: "John", comment: "Amazing phone!", rating: 5 },
       { user: "Alice", comment: "Worth the price.", rating: 4 },
     ],
-    rating: 5, // rounded
+    rating: 5,
   },
   {
     id: 2,
@@ -26,6 +26,17 @@ const products = [
     category: "Phone",
     quantity: 30,
     reviews: [{ user: "Mike", comment: "Excellent Android phone.", rating: 5 }],
+    rating: 5,
+  },
+  {
+    id: 11,
+    title: "Google Pixel 9",
+    image: "/phone/pixel.avif",
+    price: 799.99,
+    description: "Google's latest Pixel with AI-powered camera and clean Android experience.",
+    category: "Phone",
+    quantity: 20,
+    reviews: [{ user: "Nina", comment: "Love the camera!", rating: 5 }],
     rating: 5,
   },
 
@@ -51,6 +62,17 @@ const products = [
     quantity: 40,
     reviews: [],
     rating: 0,
+  },
+  {
+    id: 12,
+    title: "NewBalance Ultraboost",
+    image: "/shoes/shoes_newbalance.avif",
+    price: 159.99,
+    description: "Premium running shoes for comfort and speed.",
+    category: "Shoes",
+    quantity: 35,
+    reviews: [{ user: "David", comment: "Best running shoes ever!", rating: 5 }],
+    rating: 5,
   },
 
   // Sunglasses
@@ -115,7 +137,7 @@ const products = [
   },
   {
     id: 10,
-    title: "fast Track",
+    title: "Fast Track Analog",
     image: "/watch/fasttrack.avif",
     price: 149.99,
     description: "Classic analog watch with chronograph and leather strap.",
@@ -124,7 +146,30 @@ const products = [
     reviews: [],
     rating: 0,
   },
+  {
+    id: 13,
+    title: "Canon EOS 90D",
+    image: "/camera/nikon_camera.avif",
+    price: 1199.99,
+    description: "Professional DSLR camera with high-resolution sensor and fast autofocus.",
+    category: "Camera",
+    quantity: 10,
+    reviews: [{ user: "Alex", comment: "Takes amazing photos!", rating: 5 }],
+    rating: 5,
+  },
+  {
+    id: 14,
+    title: "Sony Alpha 7 IV",
+    image: "/camera/sony_camera.avif",
+    price: 2499.99,
+    description: "Mirrorless camera with excellent low-light performance.",
+    category: "Camera",
+    quantity: 8,
+    reviews: [],
+    rating: 0,
+  },
 ];
 
-
 export default products;
+
+
