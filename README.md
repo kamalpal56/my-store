@@ -5,7 +5,7 @@ It includes product listing, cart functionality, and responsive UI.
 
 
 ## 🚀 Live Demo
-👉 [View Deployment](https://your-project-name.vercel.app)
+👉 [View Deployment](https://my-store-97q0z7qrr-kamals-projects-a63cd4fe.vercel.app)
 
 
 ## 📂 Features
@@ -26,4 +26,4 @@ It includes product listing, cart functionality, and responsive UI.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/kamalpal56/my-store
